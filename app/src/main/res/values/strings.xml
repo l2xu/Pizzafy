@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Pizzafy</string>
+    <string name="new_pizza_btn">Create New Pizza</string>
+    <string name="saved_pizza_btn">Saved Pizzas</string>
+    <string name="back">Back</string>
+    <string name="info">Info</string>
+
+
+    <!--    Grounds -->
+    <string name="ground_category"><b>Ground</b></string>
+
+    <string name="ground_normal">normal</string>
+    <string name="ground_thin">thin</string>
+    <string name="ground_thick">thick</string>
+    <string name="ground_crusty">crusty</string>
+
+    <!--    Sauces -->
+    <string name="sauce_category"><b>Sauce</b></string>
+
+    <string name="sauce_tomatoes">tomato</string>
+    <string name="sauce_hollandaise">hollandaise</string>
+    <string name="sauce_herb">herbs</string>
+    <string name="sauce_none">none</string>
+
+    <!--    Toppings-->
+    <string name="toppings_category"><b>Toppings</b></string>
+
+
+    <!--    Cheese-->
+    <string name="cheese_category"><b>Cheese</b></string>
+    <string name="cheese_gouda">gouda</string>
+    <string name="cheese_mozzarella">mozzarella</string>
+    <string name="cheese_vegan">vegan</string>
+    <string name="cheese_none">none</string>
+    <!--  Size  -->
+    <string name="size_category"><b>Size</b></string>
+    <string name="size_16">16cm</string>
+    <string name="size_24">24cm</string>
+    <string name="size_40">40cm</string>
+
+    <!--    Order -->
+    <string name="order_thanks">THANKS FOR YOUR ORDER!</string>
+    <string name="order_save">Save Pizza</string>
+    <string name="order_menu">Main Menu</string>
+    <string name="order_now">Order Now</string>
+
+
+    <!--    Info-->
+
+    <string name="info_heading">Info</string>
+    <string name="info_category">Category</string>
+    <string name="info_name">Name</string>
+    <string name="info_price">Price</string>
+    <string name="info_cal">Calories</string>
+
+</resources>

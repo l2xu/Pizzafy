@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Programmierung_04/Pizzafy_m29202/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3185" />
+        <entry key="..\:/Programmierung_04/Pizzafy_m29202/app/src/main/res/drawable-v24/toggle_onion.xml" value="0.3165" />
+        <entry key="..\:/Programmierung_04/Pizzafy_m29202/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3185" />
+        <entry key="..\:/Programmierung_04/Pizzafy_m29202/app/src/main/res/drawable/ic_pineapple_off_background.xml" value="0.3185" />
+        <entry key="..\:/Programmierung_04/Pizzafy_m29202/app/src/main/res/drawable/ic_pizzafy_logo_background.xml" value="0.3185" />
+        <entry key="..\:/Programmierung_04/Pizzafy_m29202/app/src/main/res/drawable/radio_normal.xml" value="0.2915" />
+        <entry key="..\:/Programmierung_04/Pizzafy_m29202/app/src/main/res/drawable/radio_selected.xml" value="0.2915" />
+        <entry key="..\:/Programmierung_04/Pizzafy_m29202/app/src/main/res/drawable/radio_selector.xml" value="0.2915" />
+        <entry key="..\:/Programmierung_04/Pizzafy_m29202/app/src/main/res/drawable/radio_text_color.xml" value="0.2915" />
+        <entry key="..\:/Programmierung_04/Pizzafy_m29202/app/src/main/res/drawable/toggle_brocoli.xml" value="0.3535" />
+        <entry key="..\:/Programmierung_04/Pizzafy_m29202/app/src/main/res/drawable/toggle_champingions.xml" value="0.3535" />
+        <entry key="..\:/Programmierung_04/Pizzafy_m29202/app/src/main/res/drawable/toggle_garlic.xml" value="0.3535" />
+        <entry key="..\:/Programmierung_04/Pizzafy_m29202/app/src/main/res/drawable/toggle_pineapple.xml" value="0.3185" />
+        <entry key="..\:/Programmierung_04/Pizzafy_m29202/app/src/main/res/drawable/toggle_pineapple_bg.xml" value="0.3185" />
+        <entry key="..\:/Programmierung_04/Pizzafy_m29202/app/src/main/res/drawable/toggle_salami.xml" value="0.3535" />
+        <entry key="..\:/Programmierung_04/Pizzafy_m29202/app/src/main/res/drawable/toggle_tomatos.xml" value="0.3535" />
+        <entry key="..\:/Programmierung_04/Pizzafy_m29202/app/src/main/res/drawable/toggle_tuna.xml" value="0.3535" />
+        <entry key="..\:/Programmierung_04/Pizzafy_m29202/app/src/main/res/layout/activity_create.xml" value="0.33" />
+        <entry key="..\:/Programmierung_04/Pizzafy_m29202/app/src/main/res/layout/activity_info.xml" value="0.5" />
+        <entry key="..\:/Programmierung_04/Pizzafy_m29202/app/src/main/res/layout/activity_main.xml" value="0.5" />
+        <entry key="..\:/Programmierung_04/Pizzafy_m29202/app/src/main/res/layout/activity_order.xml" value="0.5" />
+        <entry key="..\:/Programmierung_04/Pizzafy_m29202/app/src/main/res/layout/activity_saved_pizzas.xml" value="0.3484375" />
+        <entry key="..\:/Programmierung_04/Pizzafy_m29202/app/src/main/res/layout/attrib_row.xml" value="0.75" />
+        <entry key="..\:/Programmierung_04/Pizzafy_m29202/app/src/main/res/layout/info_dialog.xml" value="0.33" />
+        <entry key="..\:/Programmierung_04/Pizzafy_m29202/app/src/main/res/layout/saved_pizza.xml" value="0.5456410256410257" />
+        <entry key="..\:/Programmierung_04/Pizzafy_m29202/app/src/main/res/mipmap-anydpi-v26/ic_pineapple_off.xml" value="0.3185" />
+        <entry key="..\:/Programmierung_04/Pizzafy_m29202/app/src/main/res/mipmap-anydpi-v26/ic_pizzafy_logo.xml" value="0.1785" />
+        <entry key="..\:/Programmierung_04/Pizzafy_m29202/app/src/main/res/mipmap-anydpi-v26/ic_pizzafy_logo_round.xml" value="0.1785" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/rock_salt"
+        android:text="@string/info_heading"
+        android:textColor="@color/mainOrange"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableLayout
+        android:id="@+id/tableInfo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/text_info_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:fontFamily="@font/rock_salt" />
+
+            <TextView
+                android:id="@+id/text_info_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:fontFamily="@font/rock_salt"
+                android:text="@string/info_price" />
+
+            <TextView
+                android:id="@+id/text_info_cal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:fontFamily="@font/rock_salt"
+                android:text="@string/info_cal" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btn_infoBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:scrollbarSize="2dp"
+        android:text="@string/back"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_infoPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/rock_salt"
+        android:text="@string/info_price"
+        app:layout_constraintStart_toStartOf="@+id/btn_infoBack"
+        app:layout_constraintTop_toBottomOf="@+id/tableInfo" />
+
+    <TextView
+        android:id="@+id/text_infoCal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/rock_salt"
+        android:text="@string/info_cal"
+        app:layout_constraintStart_toStartOf="@+id/btn_infoBack"
+        app:layout_constraintTop_toBottomOf="@+id/text_infoPrice" />
+
+    <TextView
+        android:id="@+id/text_infoTotalCal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:text="TextView"
+        android:textColor="@color/mainOrange"
+        android:textSize="17sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/text_infoPrice"
+        app:layout_constraintStart_toEndOf="@+id/text_infoPrice" />
+
+    <TextView
+        android:id="@+id/text_infoTotalPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="@color/mainOrange"
+        android:textSize="17sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/text_infoCal"
+        app:layout_constraintStart_toStartOf="@+id/text_infoTotalCal" />
+</androidx.constraintlayout.widget.ConstraintLayout>

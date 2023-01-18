@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="black">#FF000000</color>
+    <color name="mainOrange">#FF7324</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="box_size">70dp</dimen>
+    <dimen name="margin_right">20dp</dimen>
+    <string name="app_name">Pizzafy</string>
+    <string name="back">Back</string>
+    <string name="cheese_category"><b>Cheese</b></string>
+    <string name="cheese_gouda">gouda</string>
+    <string name="cheese_mozzarella">mozzarella</string>
+    <string name="cheese_none">none</string>
+    <string name="cheese_vegan">vegan</string>
+    <string name="ground_category"><b>Ground</b></string>
+    <string name="ground_crusty">crusty</string>
+    <string name="ground_normal">normal</string>
+    <string name="ground_thick">thick</string>
+    <string name="ground_thin">thin</string>
+    <string name="info">Info</string>
+    <string name="info_cal">Calories</string>
+    <string name="info_category">Category</string>
+    <string name="info_heading">Info</string>
+    <string name="info_name">Name</string>
+    <string name="info_price">Price</string>
+    <string name="new_pizza_btn">Create New Pizza</string>
+    <string name="order_menu">Main Menu</string>
+    <string name="order_now">Order Now</string>
+    <string name="order_save">Save Pizza</string>
+    <string name="order_thanks">THANKS FOR YOUR ORDER!</string>
+    <string name="sauce_category"><b>Sauce</b></string>
+    <string name="sauce_herb">herbs</string>
+    <string name="sauce_hollandaise">hollandaise</string>
+    <string name="sauce_none">none</string>
+    <string name="sauce_tomatoes">tomato</string>
+    <string name="saved_pizza_btn">Saved Pizzas</string>
+    <string name="size_16">16cm</string>
+    <string name="size_24">24cm</string>
+    <string name="size_40">40cm</string>
+    <string name="size_category"><b>Size</b></string>
+    <string name="toppings_category"><b>Toppings</b></string>
+    <style name="Theme.Pizzafy_m29202" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/mainOrange</item>
+        <item name="colorPrimaryVariant">@color/mainOrange</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
